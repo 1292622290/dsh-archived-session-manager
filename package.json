@@ -1,0 +1,11 @@
+{
+  "name": "dsh-archived-session-manager",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness 归档会话管理动态插件：在设置页查看、恢复、彻底删除归档会话（官方界面没有归档管理入口）。",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "node -e \"const fs=require('fs');for(const f of ['src/host.js','src/client.js']){new Function(fs.readFileSync(f,'utf8'));console.log(f+' OK')}\""
+  }
+}
